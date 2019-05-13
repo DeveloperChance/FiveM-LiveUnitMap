@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<!--
+   ___   __  __ 
+  / _ \ /_ |/_ |
+ | (_) | | | | |
+  \__, | | | | |
+    / /  | | | |
+   /_/   |_| |_|
+              
+    -->
+
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="Description" content="GTA V Live Interactive Map On Postal Map">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./jquery.mousewheel.min.js"></script>
+    <script src="./webApp.js"></script>
+    <!-- Stylesheets & Icons -->
+    <link rel="icon" href="./assets/logo.png" />
+    <title>Live Interactive Map</title>
+    <style>
+        * {
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        html{
+            height: 7750px;
+            width: 5740px;
+        }
+
+        body{
+            background-color: #1C1C1C;
+            -webkit-transition: all .14s ease-in;
+            -moz-transition: all .14s ease-in;
+            transition: all .14s ease-in;
+        
+        }
+
+        #liveCanvas {
+            padding: 0;
+            margin: -7.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./assets/gtav_postal.png" style="position: absolute; z-index: -1; margin: -7.5px;" />
+    <canvas height="7850px" width="5840px" id="liveCanvas"></canvas>
+</body>
+
+</html>
