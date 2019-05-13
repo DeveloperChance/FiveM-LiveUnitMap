@@ -1,5 +1,9 @@
 # FiveM: Live Unit Map
 
+## Requirements:
+For the In-Game Unit Menu (INCLUDED IN RELEASE):
+https://github.com/FrazzIe/NativeUILua
+
 This map is to display emergency or tow units in live time from a RP FiveM server on a Web Application.
 
 The FiveM Scripts are scripted to where the user will setup their Unit Number, Type, and whether they are active through a menu, hot-key to open this menu can be changed through the handler lua script under the properties at the top. These settings are saved in a JSON file which the lua script will pull from. It will take the Coordinates of each active unit and create a JSON object and submit them to a web server. The Web Server will convert the JSON Object into a JSON File.
