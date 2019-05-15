@@ -1,20 +1,55 @@
 # FiveM: Live Unit Map
 
 
-## Requirements:
-For the In-Game Unit Menu (INCLUDED IN RELEASE):
-https://github.com/FrazzIe/NativeUILua
+## Thanks
+I used these Libraries in the development of this. thanks guys! <3
+| Creator   | Repository Name     | Repository                                        |
+|:---------:|:-------------------:|:-------------------------------------------------:|
+| Frazzle   | NativeUILua         | [https://github.com/FrazzIe/NativeUILua]          |
+| brouznouf | MySQL Async Library | [https://github.com/brouznouf/fivem-mysql-async/] |
 
 
 ## About
-This map is to display emergency or tow units in live time from a RP FiveM server on a Web Application.
+This web application displays emergency, tow, or other units in live time on a map for FiveM RP Servers.
 
-The FiveM Scripts are scripted to where the user will setup their Unit Number, Type, and whether they are active through a menu, hot-key to open this menu can be changed through the handler lua script under the properties at the top. These settings are saved in a JSON file which the lua script will pull from. It will take the Coordinates of each active unit and create a JSON object and submit them to a web server. The Web Server will convert the JSON Object into a JSON File.
 
-The Web Application will run an AJAX call to the URL this JSON file is stored on. It will then update the map with all the units and their locations.
+## How it works
+This web application functions it a somewhat complex matter. Starting in the server, you, the user, setup your unit details. You'll first setup your Unit Id, followed by your Unit Type and whether or not the GPS is activate. Review **Usage** if you are unsure how to setup your unit details. Your Unit Id and Unit Type, aswell as your steam hex, are saved in either a database or local json file. This based on your installation method.
 
-## INSTALLATION
-Not Ready for installation..
+After setting up your unit details, the server will update a local JSON array serverside and submit it to a web server. The webserver will then hold onto that array locally. The live maps will then submit an AJAX Request to get the new coordiantes of the unit. The map then updates the units on the map.
+
+
+## Installation
+Installation is made easy with mostly drag and drop solutions with a few configuration edits. There are two options for storing unit data:
+1. Unit Data Stored Database (Recommended)
+2. Unit Data Stored in Local JSON (Method is Unsecure)
+
+### Installation for Database Setup
+Not Currently Available
+
+### Installation for Local JSON 
+Not Currently Available
+
+
+## Usage
+**Setting a Unit ID:**
+This done through the **/uhid** command. There is support for 3-4 Characters in Length Unit ID's.
+Example: **/uhid A123**
+
+After setting your Unit ID, open the default **F5** Menu to ensure it's set properly.
+
+
+**Setting Unit Type**
+Setting the Unit Type can be done the default **F5** Menu under the Unit ID. To change it, just move to list left or right. 
+
+By default there is only 3 options:
+- LEO (Law Enforcement Officer: Displays Blue)
+- Fire (EMS or Fire: Displays Red)
+- Tow (Mechanic/Tow Units: Displays Orange)
+
+
+**Activating the GPS**
+Activating the GPS is how the server will know to send your coordinates to the Live Map. It can be found under the default **F5** Menu at the bottom under the Unit Type. When you leave the server, it will automatically be deactived and you have to reactive it next time you join.
 
 
 ### Developer Notes
