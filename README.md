@@ -4,9 +4,8 @@
 ## Thanks
 I used these Libraries in the development of this. thanks guys! <3
 
-| Creator   | Repository Name     | Repository                             |
-|:---------:|:-------------------:|:--------------------------------------:|
-| Frazzle   | NativeUILua         | https://github.com/FrazzIe/NativeUILua         |
+| Creator   | Repository Name     | Repository                                     |
+|:---------:|:-------------------:|:----------------------------------------------:|
 | brouznouf | MySQL Async Library | https://github.com/brouznouf/fivem-mysql-async |
 
 
@@ -21,16 +20,11 @@ After setting up your unit details, the server will update a local JSON array se
 
 
 ## Installation
-Installation is made easy with mostly drag and drop solutions with a few configuration edits. There are two options for storing unit data:
+Installation is made easy with mostly drag and drop solutions with a few configuration edits. There is currently only one option for storing unit data:
 1. Unit Data Stored Database (Recommended)
-2. Unit Data Stored in Local JSON (Method is Unsecure)
 
 ### Installation for Database Setup
 Not Currently Available
-
-### Installation for Local JSON 
-Not Currently Available
-
 
 ## Usage
 #### Setting a Unit ID
