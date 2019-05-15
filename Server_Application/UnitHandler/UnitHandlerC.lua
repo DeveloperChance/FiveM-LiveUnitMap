@@ -2,8 +2,8 @@
 
 -- Set Variables
 local unitConfigured = false;
-local unitId = unitId;
-local unitType = "leo";
+local unitId;
+local unitType;
 local unitActive = false
 
 -- Register Unit Id
