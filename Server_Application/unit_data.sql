@@ -1,4 +1,5 @@
 CREATE DATABASE FiveM_UnitHandler;
+ALTER SCHEMA `FiveM_UnitHandler`  DEFAULT CHARACTER SET utf8mb4 ;
 
 CREATE TABLE FiveM_UnitHandler.unit_data (
     steam_hex VARCHAR(64),
