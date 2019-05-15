@@ -33,16 +33,14 @@ Not Currently Available
 
 
 ## Usage
-**Setting a Unit ID**
-
+#### Setting a Unit ID
 This done through the **/uhid** command. There is support for 3-4 Characters in Length Unit ID's.
 Example: **/uhid A123**
  
 After setting your Unit ID, open the default **F5** Menu to ensure it's set properly.
 
 
-**Setting Unit Type**
-
+#### Setting Unit Type
 Setting the Unit Type can be done the default **F5** Menu under the Unit ID. To change it, just move to list left or right. 
 
 By default there is only 3 options:
@@ -51,8 +49,7 @@ By default there is only 3 options:
 - Tow (Mechanic/Tow Units: Displays Orange)
 
 
-**Activating the GPS**
-
+#### Activating the GPS
 Activating the GPS is how the server will know to send your coordinates to the Live Map. It can be found under the default **F5** Menu at the bottom under the Unit Type. When you leave the server, it will automatically be deactived and you have to reactive it next time you join.
 
 
