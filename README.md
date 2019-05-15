@@ -3,10 +3,11 @@
 
 ## Thanks
 I used these Libraries in the development of this. thanks guys! <3
-| Creator   | Repository Name     | Repository                                        |
-|:---------:|:-------------------:|:-------------------------------------------------:|
-| Frazzle   | NativeUILua         | [https://github.com/FrazzIe/NativeUILua]          |
-| brouznouf | MySQL Async Library | [https://github.com/brouznouf/fivem-mysql-async/] |
+
+| Creator   | Repository Name     | Repository                             |
+|:---------:|:-------------------:|:--------------------------------------:|
+| Frazzle   | NativeUILua         | https://github.com/FrazzIe/NativeUILua         |
+| brouznouf | MySQL Async Library | https://github.com/brouznouf/fivem-mysql-async |
 
 
 ## About
@@ -35,7 +36,7 @@ Not Currently Available
 **Setting a Unit ID:**
 This done through the **/uhid** command. There is support for 3-4 Characters in Length Unit ID's.
 Example: **/uhid A123**
-
+ 
 After setting your Unit ID, open the default **F5** Menu to ensure it's set properly.
 
 
