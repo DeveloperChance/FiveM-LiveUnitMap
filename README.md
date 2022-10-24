@@ -1,8 +1,11 @@
+### This project is incomplete and I have decided not to continue working on it due to complications with client and server side integration. - 10/24/2022
+-----
+
 # FiveM: Live Unit Map
 
 
 ## Thanks
-I used these Libraries in the development of this. thanks guys! <3
+I used these Libraries in the development of this. thanks guys!
 
 | Creator   | Repository Name     | Repository                                     |
 |:---------:|:-------------------:|:----------------------------------------------:|
